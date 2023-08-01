@@ -71,21 +71,6 @@ body {
   opacity: 1;
   transform: translateY(10px);
 }
-.navigation > ul > li:nth-child(1).active ~ .indicator {
-  transform: translateX(0px);
-}
-.navigation > ul > li:nth-child(2).active ~ .indicator {
-  transform: translateX(70px);
-}
-.navigation > ul > li:nth-child(3).active ~ .indicator {
-  transform: translateX(140px);
-}
-.navigation > ul > li:nth-child(4).active ~ .indicator {
-  transform: translateX(210px);
-}
-.navigation > ul > li:nth-child(5).active ~ .indicator {
-  transform: translateX(280px);
-}
 .navigation > ul > .indicator {
   position: absolute;
   top: -50%;
